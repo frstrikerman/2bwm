@@ -325,8 +325,6 @@ TODO:
 
 * Fix the race condition bug that happens when switching workspaces too fast.
 
-* Fix the mapping issue with mplayer (doesn't have the issue when using -vo gl)
-
 * Bug related to gtkfilechooser dialog in telegram-desktop - needs more information to debug
 
 * Use the `xcb_ewmh.h` functions instead of that ugly hardcoded ATOM enum for
@@ -338,8 +336,7 @@ TODO:
 
   - Use the new xcb-ewmh for the EWMH hints.
      _NET_WM_STATE, _NET_WM_STATE_STICKY,
-     _NET_WM_STATE_MAXIMIZED_VERT, 
-     _NET_WM_STATE_FULLSCREEN
+     _NET_WM_STATE_MAXIMIZED_VERT, [etc](https://standards.freedesktop.org/wm-spec/wm-spec-latest.html#idm140200472615568).
 
 * A separate workspace list for every monitor. (CTRL+NUM)
 	* get the cursor position (on which monitor)
